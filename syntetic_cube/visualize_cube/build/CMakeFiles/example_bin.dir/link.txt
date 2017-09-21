@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -Wno-deprecated-declarations   CMakeFiles/example_bin.dir/visualize_cube.cpp.o  -o example_bin -rdynamic -lGL libigl/glew/libglew.a -lGL libigl/glew/libglew.a libigl/glfw/src/libglfw3.a -lrt -lm -ldl -lX11 -lpthread -lXrandr -lXinerama -lXxf86vm -lXcursor 
