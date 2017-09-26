@@ -4,10 +4,10 @@
 Eigen::MatrixXd V;
 Eigen::MatrixXi F;
 
-int main(void)
+int main(int argc, char **argv)
 {
   // Load the mesh in OFF format
-  igl::readOFF("/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/syntetic_cube.off", V, F);
+  igl::readOFF(argv[1], V, F);
 
   // Plot the mesh
   igl::viewer::Viewer viewer;

@@ -6,5 +6,5 @@ C_FLAGS =   -Wall
 
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/home/caglar/libigl/external/nanogui/ext/glfw/include -I/home/caglar/libigl/external/nanogui/ext/glfw/src -I/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src 
+C_INCLUDES = -I/home/cseylan/libigl/external/nanogui/ext/glfw/include -I/home/cseylan/libigl/external/nanogui/ext/glfw/src -I/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src 
 

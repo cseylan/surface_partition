@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/install_manifest.txt\"")
+if (NOT EXISTS "/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/install_manifest.txt" files)
+file(READ "/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

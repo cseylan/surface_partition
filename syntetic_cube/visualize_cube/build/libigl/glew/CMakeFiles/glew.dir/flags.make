@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = -DGLEW_BUILD -DGLEW_NO_GLU
 
-C_INCLUDES = -I/home/caglar/libigl/external/nanogui/ext/glew/include 
+C_INCLUDES = -I/home/cseylan/libigl/external/nanogui/ext/glew/include 
 

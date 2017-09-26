@@ -1,4 +1,4 @@
-# Install script for directory: /home/caglar/libigl/external/nanogui/ext/glew
+# Install script for directory: /home/cseylan/libigl/external/nanogui/ext/glew
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

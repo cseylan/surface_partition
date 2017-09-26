@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube
+CMAKE_SOURCE_DIR = /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build
+CMAKE_BINARY_DIR = /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build
 
 # Include any dependencies generated for this target.
 include libigl/glfw/src/CMakeFiles/glfw.dir/depend.make
@@ -62,21 +62,21 @@ glfw_OBJECTS =
 
 # External object files for target glfw
 glfw_EXTERNAL_OBJECTS = \
-"/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o" \
-"/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o" \
-"/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o" \
-"/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o" \
-"/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o" \
-"/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o" \
-"/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/x11_init.c.o" \
-"/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/x11_monitor.c.o" \
-"/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/x11_window.c.o" \
-"/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.o" \
-"/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o" \
-"/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/posix_time.c.o" \
-"/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/posix_tls.c.o" \
-"/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/glx_context.c.o" \
-"/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o"
+"/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o" \
+"/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o" \
+"/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o" \
+"/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o" \
+"/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o" \
+"/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o" \
+"/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/x11_init.c.o" \
+"/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/x11_monitor.c.o" \
+"/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/x11_window.c.o" \
+"/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.o" \
+"/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o" \
+"/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/posix_time.c.o" \
+"/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/posix_tls.c.o" \
+"/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/glx_context.c.o" \
+"/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o"
 
 libigl/glfw/src/libglfw3.a: libigl/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o
 libigl/glfw/src/libglfw3.a: libigl/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o
@@ -95,9 +95,9 @@ libigl/glfw/src/libglfw3.a: libigl/glfw/src/CMakeFiles/glfw_objects.dir/glx_cont
 libigl/glfw/src/libglfw3.a: libigl/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o
 libigl/glfw/src/libglfw3.a: libigl/glfw/src/CMakeFiles/glfw.dir/build.make
 libigl/glfw/src/libglfw3.a: libigl/glfw/src/CMakeFiles/glfw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking C static library libglfw3.a"
-	cd /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean_target.cmake
-	cd /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glfw.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking C static library libglfw3.a"
+	cd /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean_target.cmake
+	cd /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glfw.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libigl/glfw/src/CMakeFiles/glfw.dir/build: libigl/glfw/src/libglfw3.a
@@ -109,10 +109,10 @@ libigl/glfw/src/CMakeFiles/glfw.dir/requires:
 .PHONY : libigl/glfw/src/CMakeFiles/glfw.dir/requires
 
 libigl/glfw/src/CMakeFiles/glfw.dir/clean:
-	cd /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean.cmake
+	cd /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean.cmake
 .PHONY : libigl/glfw/src/CMakeFiles/glfw.dir/clean
 
 libigl/glfw/src/CMakeFiles/glfw.dir/depend:
-	cd /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube /home/caglar/libigl/external/nanogui/ext/glfw/src /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube /home/cseylan/libigl/external/nanogui/ext/glfw/src /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libigl/glfw/src/CMakeFiles/glfw.dir/depend
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/caglar/libigl/external/nanogui/ext/glew/include/GL/glew.h
+/home/cseylan/libigl/external/nanogui/ext/glew/include/GL/glew.h
 stddef.h
 -
 inttypes.h
@@ -22,7 +22,7 @@ OpenGL/glu.h
 GL/glu.h
 -
 
-/home/caglar/libigl/external/nanogui/ext/glew/include/GL/glxew.h
+/home/cseylan/libigl/external/nanogui/ext/glew/include/GL/glxew.h
 X11/Xlib.h
 -
 X11/Xutil.h
@@ -32,11 +32,11 @@ X11/Xmd.h
 GL/glew.h
 -
 
-/home/caglar/libigl/external/nanogui/ext/glew/include/GL/wglew.h
+/home/cseylan/libigl/external/nanogui/ext/glew/include/GL/wglew.h
 windows.h
 -
 
-/home/caglar/libigl/external/nanogui/ext/glew/src/glew.c
+/home/cseylan/libigl/external/nanogui/ext/glew/src/glew.c
 GL/glew.h
 -
 GL/wglew.h

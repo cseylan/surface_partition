@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/caglar/libigl/external/nanogui/ext/glew/src/glew.c" "/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glew/CMakeFiles/glew.dir/src/glew.c.o"
+  "/home/cseylan/libigl/external/nanogui/ext/glew/src/glew.c" "/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glew/CMakeFiles/glew.dir/src/glew.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -16,7 +16,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/caglar/libigl/external/nanogui/ext/glew/include"
+  "/home/cseylan/libigl/external/nanogui/ext/glew/include"
   )
 
 # Targets to which this target links.

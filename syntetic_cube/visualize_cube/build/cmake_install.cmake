@@ -1,4 +1,4 @@
-# Install script for directory: /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube
+# Install script for directory: /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/cmake_install.cmake")
+  include("/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

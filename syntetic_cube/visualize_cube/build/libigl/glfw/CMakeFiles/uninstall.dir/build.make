@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube
+CMAKE_SOURCE_DIR = /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build
+CMAKE_BINARY_DIR = /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/caglar/Desktop/surface_partition/syntetic_cube/visualiz
 include libigl/glfw/CMakeFiles/uninstall.dir/progress.make
 
 libigl/glfw/CMakeFiles/uninstall:
-	cd /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw && /usr/bin/cmake -P /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/cmake_uninstall.cmake
+	cd /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw && /usr/bin/cmake -P /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/cmake_uninstall.cmake
 
 uninstall: libigl/glfw/CMakeFiles/uninstall
 uninstall: libigl/glfw/CMakeFiles/uninstall.dir/build.make
@@ -67,10 +67,10 @@ libigl/glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : libigl/glfw/CMakeFiles/uninstall.dir/build
 
 libigl/glfw/CMakeFiles/uninstall.dir/clean:
-	cd /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : libigl/glfw/CMakeFiles/uninstall.dir/clean
 
 libigl/glfw/CMakeFiles/uninstall.dir/depend:
-	cd /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube /home/caglar/libigl/external/nanogui/ext/glfw /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube /home/cseylan/libigl/external/nanogui/ext/glfw /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libigl/glfw/CMakeFiles/uninstall.dir/depend
 

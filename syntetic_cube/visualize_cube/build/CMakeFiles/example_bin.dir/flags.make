@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -Wno-deprecated-declarations
 
 CXX_DEFINES = -DIGL_NO_MOSEK
 
-CXX_INCLUDES = -I/home/caglar/libigl/shared/cmake/../../external/nanogui/ext/eigen -I/home/caglar/libigl/shared/cmake/../../include -I/home/caglar/libigl/shared/cmake/../../external/nanogui/ext/glew/include -I/home/caglar/libigl/shared/cmake/../../external/nanogui/ext/glfw/include 
+CXX_INCLUDES = -I/home/cseylan/libigl/shared/cmake/../../external/nanogui/ext/eigen -I/home/cseylan/libigl/shared/cmake/../../include -I/home/cseylan/libigl/shared/cmake/../../external/nanogui/ext/glew/include -I/home/cseylan/libigl/shared/cmake/../../external/nanogui/ext/glfw/include 
 

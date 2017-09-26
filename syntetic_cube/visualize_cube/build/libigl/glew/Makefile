@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube
+CMAKE_SOURCE_DIR = /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build
+CMAKE_BINARY_DIR = /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,8 +91,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -124,14 +124,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/CMakeFiles /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glew/CMakeFiles/progress.marks
-	cd /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(MAKE) -f CMakeFiles/Makefile2 libigl/glew/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build/CMakeFiles 0
+	cd /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/CMakeFiles /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/libigl/glew/CMakeFiles/progress.marks
+	cd /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(MAKE) -f CMakeFiles/Makefile2 libigl/glew/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(MAKE) -f CMakeFiles/Makefile2 libigl/glew/clean
+	cd /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(MAKE) -f CMakeFiles/Makefile2 libigl/glew/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(MAKE) -f CMakeFiles/Makefile2 libigl/glew/preinstall
+	cd /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(MAKE) -f CMakeFiles/Makefile2 libigl/glew/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(MAKE) -f CMakeFiles/Makefile2 libigl/glew/preinstall
+	cd /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(MAKE) -f CMakeFiles/Makefile2 libigl/glew/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libigl/glew/CMakeFiles/glew.dir/rule:
-	cd /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(MAKE) -f CMakeFiles/Makefile2 libigl/glew/CMakeFiles/glew.dir/rule
+	cd /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(MAKE) -f CMakeFiles/Makefile2 libigl/glew/CMakeFiles/glew.dir/rule
 .PHONY : libigl/glew/CMakeFiles/glew.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ glew: libigl/glew/CMakeFiles/glew.dir/rule
 
 # fast build rule for target.
 glew/fast:
-	cd /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(MAKE) -f libigl/glew/CMakeFiles/glew.dir/build.make libigl/glew/CMakeFiles/glew.dir/build
+	cd /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(MAKE) -f libigl/glew/CMakeFiles/glew.dir/build.make libigl/glew/CMakeFiles/glew.dir/build
 .PHONY : glew/fast
 
 src/glew.o: src/glew.c.o
@@ -175,7 +175,7 @@ src/glew.o: src/glew.c.o
 
 # target to build an object file
 src/glew.c.o:
-	cd /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(MAKE) -f libigl/glew/CMakeFiles/glew.dir/build.make libigl/glew/CMakeFiles/glew.dir/src/glew.c.o
+	cd /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(MAKE) -f libigl/glew/CMakeFiles/glew.dir/build.make libigl/glew/CMakeFiles/glew.dir/src/glew.c.o
 .PHONY : src/glew.c.o
 
 src/glew.i: src/glew.c.i
@@ -184,7 +184,7 @@ src/glew.i: src/glew.c.i
 
 # target to preprocess a source file
 src/glew.c.i:
-	cd /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(MAKE) -f libigl/glew/CMakeFiles/glew.dir/build.make libigl/glew/CMakeFiles/glew.dir/src/glew.c.i
+	cd /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(MAKE) -f libigl/glew/CMakeFiles/glew.dir/build.make libigl/glew/CMakeFiles/glew.dir/src/glew.c.i
 .PHONY : src/glew.c.i
 
 src/glew.s: src/glew.c.s
@@ -193,7 +193,7 @@ src/glew.s: src/glew.c.s
 
 # target to generate assembly for a file
 src/glew.c.s:
-	cd /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(MAKE) -f libigl/glew/CMakeFiles/glew.dir/build.make libigl/glew/CMakeFiles/glew.dir/src/glew.c.s
+	cd /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(MAKE) -f libigl/glew/CMakeFiles/glew.dir/build.make libigl/glew/CMakeFiles/glew.dir/src/glew.c.s
 .PHONY : src/glew.c.s
 
 # Help Target
@@ -223,6 +223,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/caglar/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/cseylan/Desktop/surface_partition/syntetic_cube/visualize_cube/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
